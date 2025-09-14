@@ -1,0 +1,130 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #777;
+    line-height: 1.6;
+    word-spacing: 1.4px;
+    overflow-x:hidden;
+    max-width: 100%;
+}
+
+/* Navbar */
+.navbar a span img{
+    width: 60px;
+    border-radius: 2px;
+    margin:0px;
+}
+
+
+.navbar-brand span {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+a{
+    color: #222;
+    text-decoration: none;
+    transition: all 0.4s;
+}
+a:hover {
+    color: rgb(49, 209, 105);;
+}
+
+.btn {
+    padding: 0.6rem 1.2rem;
+    border-radius: 0.25rem;
+}
+
+.btn-find {
+    background-color: rgb(49, 209, 105);
+    color: #fff;
+    border-color: rgb(49, 209, 105);
+    font-weight: 500;
+    transition: all 0.4s;
+    margin-right: 1rem;
+}
+.btn-find:hover {
+    background-color: rgb(51, 227, 112);
+    color: #fff;
+}
+
+.navbar ul li a {
+    font-weight: 500;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.navbar ul li a{
+    padding: 0 1.5rem 0 1.5rem;
+}
+/* navbar ends */
+
+
+/* Slider */
+.c-item{
+    height: 640px;
+}
+
+.c-img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+
+.carousel-control-prev, .carousel-control-next{
+    margin: none;
+}
+/* slider ends */
+
+/* Sub Menu */
+.submenu{
+    height: 200px;
+    /* width: 80vw; */
+}
+/* @media (min-width: 768px) { height: 350px; } */
+
+.submenu-options{
+    width: 80%;
+}
+
+.submenu button{
+    width: 150px;
+    height: 150px;
+}
+
+.submenu-options button{
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+/* submenu ends */
+
+/* Footer */
+footer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+footer div .container{
+    width: 60%;
+}
+
+
+.info div i{
+    margin-right: 1.5rem;
+}
+.info div p{
+    display:inline-block;
+}
+
+.aboutus .handles i{
+    padding: 4px;
+}
+/* Footer ends */
